@@ -1,14 +1,3 @@
-"""
-Dictionary-based translator for common signboard terms.
-
-NOTE (honest scope statement): This is a lightweight, rule-based translator
-covering common public signage vocabulary (Tamil <-> English). It is NOT a
-general-purpose machine translation model. For arbitrary sentences, this
-would need to be extended with a proper MT model or translation API.
-This scope is intentional for a v1 prototype focused on the OCR + pipeline
-architecture rather than translation-model quality.
-"""
-
 # Small curated Tamil -> English signage dictionary (extendable)
 import unicodedata as _ud
 
